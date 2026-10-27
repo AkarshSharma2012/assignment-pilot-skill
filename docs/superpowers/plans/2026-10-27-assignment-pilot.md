@@ -24,8 +24,10 @@ Missing authorization must fail closed. Holds survive restarts. Changed files in
 - [x] Write failing tests for authorization, holds, stale hashes, course mismatch, time windows, and duplicate submission.
 - [x] Implement `check_action(state, action, now) -> list[str]` and `init`/`check` CLI; run tests.
 - [x] Review docs and code; fix material findings, validate skill, scan for private data.
-- [ ] Install locally, create ZIP, commit, and publish public GitHub repository at user's explicit request. Verify remote contents and URL.
+- [x] Install locally, create ZIP, commit, and publish public GitHub repository at user's explicit request. Verify remote contents and URL.
 
 ## Execution record
 
 Initial test run failed because the helper did not yet exist. Implemented it; all 13 tests passed. Independent read-only review found no material issues. Bytecode and private state are excluded from packaging. Platform connections and relay deployment remain intentionally untested and are documented as such.
+
+Skill validator and relative-link checks passed. CLI initialization, default-deny eligibility and no-overwrite checks passed. Installed core package, built ZIP, published public repository, and verified remote file listing. Public package contains no school artifacts or private state.
