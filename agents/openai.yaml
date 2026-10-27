@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assignment Pilot"
+  short_description: "Connect and manage verified assignment workflows"
+  default_prompt: "Use $assignment-pilot to set up my learning platforms and assignment workflow."

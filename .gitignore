@@ -1,0 +1,8 @@
+.assignment-pilot/
+.autopilot/
+__pycache__/
+*.pyc
+.env
+.env.*
+dist/
+*.zip
